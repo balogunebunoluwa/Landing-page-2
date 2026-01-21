@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Samsung Galaxy A53 5G | Official Promo 2026</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <style>
+        :root { --samsung-blue: #034ea2; --bg-gray: #f2f2f2; --text-dark: #121212; --accent: #2196F3; }
+        body { font-family: 'Inter', sans-serif; margin: 0; padding: 0; color: var(--text-dark); background: #fff; overflow-x: hidden; }
+        
+        /* Navigation */
+        nav { display: flex; justify-content: space-between; align-items: center; padding: 20px 8%; background: #fff; border-bottom: 1px solid #eaeaea; position: sticky; top: 0; z-index: 1000; }
+        .logo { font-weight: 800; font-size: 22px; color: var(--samsung-blue); letter-spacing: -1px; }
+        .nav-items { display: flex; gap: 30px; font-size: 14px; font-weight: 500; color: #666; }
+
+        /* Hero Section */
+        .hero { display: flex; align-items: center; padding: 80px 10%; background: radial-gradient(circle at right, #f9f9f9, #ffffff); min-height: 60vh; }
+        .hero-text { flex: 1; }
+        .hero-text h1 { font-size: 64px; line-height: 1.1; margin: 0; font-weight: 800; letter-spacing: -3px; }
+        .hero-text p { font-size: 20px; color: #555; margin: 25px 0; max-width: 500px; }
+        .hero-img { flex: 1; text-align: center; }
+        .hero-img img { width: 85%; filter: drop-shadow(0 20px 50px rgba(0,0,0,0.15)); transition: transform 0.5s; }
+        .hero-img img:hover { transform: scale(1.02); }
+
+        /* Specs Bar */
+        .specs-bar { background: var(--text-dark); color: white; display: flex; justify-content: space-around; padding: 30px; text-align: center; }
+        .spec-item h3 { margin: 0; font-size: 24px; color: var(--accent); }
+        .spec-item p { margin: 5px 0 0; font-size: 12px; opacity: 0.7; text-transform: uppercase; }
+
+        /* Feature Section - Camera */
+        .feature-row { display: flex; align-items: center; padding: 100px 10%; gap: 60px; }
+        .feature-row:nth-child(even) { flex-direction: row-reverse; background: #fafafa; }
+        .feature-info { flex: 1; }
+        .feature-info h2 { font-size: 42px; margin-bottom: 20px; letter-spacing: -1px; }
+        .feature-info p { font-size: 18px; color: #666; line-height: 1.6; }
+        .feature-visual { flex: 1; }
+        .feature-visual img { width: 100%; border-radius: 20px; box-shadow: 0 10px 30px rgba(0,0,0,0.05); }
+
+        /* High-Conversion CTA Section */
+        .cta-section { background: var(--samsung-blue); color: white; padding: 80px 10%; text-align: center; }
+        .cta-box { max-width: 600px; margin: 0 auto; background: rgba(255,255,255,0.1); padding: 40px; border-radius: 24px; backdrop-filter: blur(10px); border: 1px solid rgba(255,255,255,0.2); }
+        .cta-box h2 { font-size: 36px; margin-bottom: 10px; }
+        .price-tag { font-size: 48px; font-weight: 800; margin: 20px 0; display: block; }
+        .price-tag span { text-decoration: line-through; font-size: 20px; opacity: 0.6; margin-right: 15px; }
+
+        .main-btn { 
+            display: inline-block; 
+            background: #fff; 
+            color: var(--samsung-blue); 
+            padding: 20px 60px; 
+            border-radius: 50px; 
+            text-decoration: none; 
+            font-weight: 700; 
+            font-size: 20px; 
+            transition: 0.3s;
+            box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+        }
+        .main-btn:hover { transform: translateY(-3px); box-shadow: 0 15px 30px rgba(0,0,0,0.3); background: #f0f0f0; }
+
+        footer { padding: 50px 10%; font-size: 12px; color: #999; text-align: center; line-height: 2; }
+
+        @media (max-width: 768px) {
+            .hero, .feature-row { flex-direction: column; text-align: center; padding: 40px 5%; }
+            .hero-text h1 { font-size: 40px; }
+            .specs-bar { flex-wrap: wrap; gap: 20px; }
+        }
+    </style>
+</head>
+<body>
+
+<nav>
+    <div class="logo">SAMSUNG</div>
+    <div class="nav-items">
+        <span>Mobile</span>
+        <span>Computing</span>
+        <span>Support</span>
+    </div>
+</nav>
+
+<section class="hero">
+    <div class="hero-text">
+        <h1>Galaxy A53 5G. <br><span style="color: var(--samsung-blue);">Simply Awesome.</span></h1>
+        <p>A cinematic experience in the palm of your hand. Experience the 120Hz Super AMOLED display and the 64MP OIS Camera.</p>
+        <a href="#claim" class="main-btn" style="background: var(--samsung-blue); color: white;">Explore Promotion</a>
+    </div>
+    <div class="hero-img">
+        <img src="https://images.samsung.com/is/image/samsung/p6pim/uk/sm-a536bzkdeua/gallery/uk-galaxy-a53-5g-sm-a536-sm-a536bzkdeua-531289115" alt="Galaxy A53">
+    </div>
+</section>
+
+<div class="specs-bar">
+    <div class="spec-item"><h3>6.5"</h3><p>FHD+ AMOLED</p></div>
+    <div class="spec-item"><h3>64MP</h3><p>OIS Camera</p></div>
+    <div class="spec-item"><h3>5,000mAh</h3><p>2-Day Battery</p></div>
+    <div class="spec-item"><h3>IP67</h3><p>Water Resistant</p></div>
+</div>
+
+<section class="feature-row">
+    <div class="feature-info">
+        <h2>Capture every detail.</h2>
+        <p>The multi-lens camera on the Galaxy A53 5G takes photos to the next level. Get crisper, clearer shots with the 64MP OIS Camera, expand your viewing angle with the Ultra Wide Camera, and customize focus with the Depth Camera.</p>
+    </div>
+    <div class="feature-visual">
+        <img src="https://images.unsplash.com/photo-1610945415295-d9bbf067e59c?auto=format&fit=crop&q=80&w=800" alt="Camera Lens">
+    </div>
+</section>
+
+<section class="feature-row">
+    <div class="feature-info">
+        <h2>Super smooth scrolling.</h2>
+        <p>Watch anything on your Galaxy’s 120Hz Super AMOLED display to see how silky smooth a viewing experience can be with less blur, more details, and vivid contrast.</p>
+    </div>
+    <div class="feature-visual">
+        <img src="https://images.unsplash.com/photo-1598327105666-5b89351aff97?auto=format&fit=crop&q=80&w=800" alt="Screen Display">
+    </div>
+</section>
+
+<section id="claim" class="cta-section">
+    <div class="cta-box">
+        <h2>Limited Opportunity</h2>
+        <p>As part of the 2026 Samsung Regional Expansion, we are offering the Galaxy A53 5G to eligible users for a shipping & processing fee of <b>$0.00</b>.</p>
+        
+        <span class="price-tag"><span>$449.00</span> $0.00</span>
+        
+        <a href="https://singingfiles.com/show.php?l=0&u=2489228&id=57893" class="main-btn">CLAIM YOUR UNIT NOW</a>
+        
+        <p style="margin-top: 20px; font-size: 13px; opacity: 0.8;">Limited Stock: <span id="stock-val">12</span> Units Remaining</p>
+    </div>
+</section>
+
+<footer>
+    <p>© 2026 Samsung Electronics Co., Ltd. All rights reserved. This is a promotional landing page. Users must complete verification to qualify for the delivery of the device. Inventory is limited and provided on a first-come, first-served basis.</p>
+    <p><a href="#" style="color: #666;">Privacy Policy</a> | <a href="#" style="color: #666;">Contact Support</a></p>
+</footer>
+
+<script>
+    // Stock Counter Logic
+    let count = 12;
+    const stockEl = document.getElementById('stock-val');
+    const timer = setInterval(() => {
+        if(count > 2) {
+            count--;
+            stockEl.innerText = count;
+        } else {
+            clearInterval(timer);
+        }
+    }, 15000);
+</script>
+
+</body>
+</html>
